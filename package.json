@@ -12,9 +12,11 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-transition-group": "^4.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "react-transition-group": "^4.4.1",
     "typescript": "~3.7.2"
   },
   "scripts": {
@@ -25,7 +27,9 @@
     "lint": "eslint . --fix --cache --ext js,jsx,ts,tsx",
     "prettier": "prettier --write *.{json,css,scss,md}",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "tag": "bit tag",
+    "export": "bit export tunapanini.tupa-algo-visualizer"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -52,6 +56,7 @@
     "@storybook/react": "^5.3.19",
     "@typescript-eslint/eslint-plugin": "^3.2.0",
     "@typescript-eslint/parser": "^3.2.0",
+    "bit": "^1.0.20",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.11.0",
@@ -74,5 +79,12 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --fix --cache",
     "*.{css,scss,json,md}": "prettier --write"
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react-typescript@3.1.56"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
   }
 }
