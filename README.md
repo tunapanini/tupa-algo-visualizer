@@ -25,29 +25,35 @@ Serve storybook
 
 Build storybook
 
-### `yarn tag <version>` & `yarn export`
+## Export components using [bit.dev](https://bit.dev/)
+
+Export components to [tunapanini.tupa-algo.visualizer](https://bit.dev/tunapanini/tupa-algo-visualizer)
+
+### Install
+
+```bash
+yarn global add bit-bin
+```
+
+### Tag
 
 [Set a version](https://docs.bit.dev/docs/tag-component-version) for component.
 
-> Don't forget to sign in with `bit login` before tag or export.
-
-This scripts will set version of components and export them to [tunapanini.tupa-algo.visualizer](https://bit.dev/tunapanini/tupa-algo-visualizer) using [bit.dev](https://bit.dev/)
-You can also use `bit tag`. Check out [bit.dev Documents](https://docs.bit.dev/docs/quick-start).
-
-#### Simple usage
-
-Tag
+Tag All
 
 ```bash
-# Tag all
-yarn tag --all 1.0.0
-
-# Tag specific component
-yarn tag components/StackBox 1.0.0
+yarn bit:tag --all 1.0.0
 ```
 
-Export
+Tag specific component
 
 ```bash
-yarn export
+# bit tag <id> <version>
+bit tag tunapanini.tupa-algo-visualizer/stack-box 1.0.0
+```
+
+### Export
+
+```bash
+bit export tunapanini.tupa-algo-visualizer
 ```

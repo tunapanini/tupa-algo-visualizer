@@ -28,8 +28,8 @@
     "prettier": "prettier --write *.{json,css,scss,md}",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "tag": "bit tag",
-    "export": "bit export tunapanini.tupa-algo-visualizer"
+    "bit:tag": "bit tag",
+    "bit:export": "bit export tunapanini.tupa-algo-visualizer"
   },
   "eslintConfig": {
     "extends": "react-app"
