@@ -13,7 +13,19 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "tunapanini.tupa-algo-visualizer/stack-box@1.0.1": {
+    "tunapanini.tupa-algo-visualizer/queue-box@1.0.0": {
+        "files": [
+            {
+                "relativePath": "src/components/QueueBox.tsx",
+                "test": false,
+                "name": "QueueBox.tsx"
+            }
+        ],
+        "mainFile": "src/components/QueueBox.tsx",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "tunapanini.tupa-algo-visualizer/stack-box@1.0.2": {
         "files": [
             {
                 "relativePath": "src/components/StackBox.tsx",
