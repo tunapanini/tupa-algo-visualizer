@@ -86,6 +86,7 @@
       "compiler": "bit.envs/compilers/react-typescript@3.1.56"
     },
     "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "defaultScope": "tunapanini.tupa-algo-visualizer"
   }
 }

@@ -49,13 +49,16 @@ Tag specific component
 
 ```bash
 # bit tag <id> <version>
-bit tag tunapanini.tupa-algo-visualizer/stack-box 1.0.0
 bit tag stack-box 1.0.0
+bit tag tunapanini.tupa-algo-visualizer/stack-box 1.0.0
 ```
 
 ### Export
 
+The command below will export components to `tunapanini.tupa-algo-visualizer` as default.
+
+Checkout workspace config named `defaultScope` in the `bit` section in `package.json` file.
+
 ```bash
-bit export tunapanini.tupa-algo-visualizer
 bit export
 ```

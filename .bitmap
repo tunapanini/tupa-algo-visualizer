@@ -37,6 +37,18 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "tunapanini.tupa-algo-visualizer/table-box@1.0.0": {
+        "files": [
+            {
+                "relativePath": "src/components/TableBox.tsx",
+                "test": false,
+                "name": "TableBox.tsx"
+            }
+        ],
+        "mainFile": "src/components/TableBox.tsx",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "tunapanini.tupa-algo-visualizer/tree-box@1.0.1": {
         "files": [
             {
