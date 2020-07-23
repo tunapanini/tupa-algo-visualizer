@@ -49,6 +49,7 @@ Tag specific component
 
 ```bash
 # bit tag <id> <version>
+bit tag tunapanini.tupa-algo-visualizer/stack-box 1.0.0
 bit tag stack-box 1.0.0
 ```
 
@@ -56,4 +57,5 @@ bit tag stack-box 1.0.0
 
 ```bash
 bit export tunapanini.tupa-algo-visualizer
+bit export
 ```

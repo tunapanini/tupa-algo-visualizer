@@ -1,10 +1,9 @@
-/** @jsx jsx */
-import { jsx } from "@emotion/core";
 import React from "react";
 // @ts-ignore
 import Graph from "react-graph-vis";
 
 type NodeId = any;
+
 type Node = {
   id: NodeId;
   value: string;
