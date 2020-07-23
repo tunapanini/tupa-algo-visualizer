@@ -37,5 +37,17 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "tunapanini.tupa-algo-visualizer/tree-box@1.0.0": {
+        "files": [
+            {
+                "relativePath": "src/components/TreeBox.tsx",
+                "test": false,
+                "name": "TreeBox.tsx"
+            }
+        ],
+        "mainFile": "src/components/TreeBox.tsx",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "version": "14.8.8"
 }
